@@ -10,13 +10,13 @@
 - [x] Finish the Sprint 1 quiz
 
 ## Sprint 2
-- [ ] Implement code updates with detailed commit messages
-- [ ] Integrate parts of pre-existing code as needed
-- [ ] Enhance the README file with an expanded project description
-- [ ] Adjust the visual aspects of the game for a refined look
-- [ ] Make at least serveral modifications and commit each change
-- [ ] Improve game fluidity for smoother gameplay experience
-- [ ] Complete the Sprint 2 quiz
+- [x] Implement code updates with detailed commit messages
+- [x] Integrate parts of pre-existing code as needed
+- [x] Enhance the README file with an expanded project description
+- [x] Adjust the visual aspects of the game for a refined look
+- [x] Make at least serveral modifications and commit each change
+- [x] Improve game fluidity for smoother gameplay experience
+- [x] Complete the Sprint 2 quiz
 
 ## Sprint 3
 - [ ]Prepare a PowerPoint presentation summarizing the project
