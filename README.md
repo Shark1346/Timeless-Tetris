@@ -1,2 +1,5 @@
-# Timeless-Tetris
-This is a timeless Tetris-inspired game built in Pygame, featuring smooth controls and a scorecard to track your progress as you clear rows and rotate pieces to fit.
+Timeless Tetris is a modern take on the beloved classic Tetris game, designed to deliver a fun and engaging experience for players of all skill levels. Built with Python, the game combines the nostalgic mechanics of rotating and stacking blocks with modern enhancements, such as vibrant colors, dynamic backgrounds, and a smooth, grid-based interface. The gameplay is intuitive, challenging players to clear as many rows as possible while aiming for high scores.
+
+With its enhanced visuals, Timeless Tetris offers a fresh and immersive experience. Blocks now feature a wide range of vibrant colors, including magenta, teal, and gold, while dynamic backgrounds add variety and style to every session. Players progress through levels as they clear lines, with each level increasing the challenge to keep gameplay exciting. The game also rewards skillful play with a Tetris bonus for clearing four rows at once, adding a layer of strategy to the classic formula.
+
+Designed with modularity in mind, the game is easy to run and extend. Players can start playing by simply running python main.py, with no additional setup required. Whether you're a long-time fan of Tetris or a new player looking for a polished, modern experience, Timeless Tetris delivers a timeless challenge with a contemporary twist.
