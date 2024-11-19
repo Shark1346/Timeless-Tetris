@@ -1,5 +1,6 @@
-#defined colors to call on grid.py and main.py
-class Colors: 
+# Defined colors to be used in grid.py, main.py, and game.py for a more appealing game
+class Colors:
+    # Core colors (original)
     dark_grey = (26, 31, 40)
     green = (47, 230, 23)
     red = (232, 18, 18)
@@ -9,11 +10,25 @@ class Colors:
     cyan = (21, 204, 209)
     blue = (13, 64, 216)
     white = (255, 255, 255)
-    dark_blue = (44, 44, 127)
-    light_blue = (59, 85, 162)
-    
-    #define method used to call class and not instance of class
+
+    # New colors (enhancements)
+    pink = (255, 105, 180)
+    gold = (255, 215, 0)
+    teal = (0, 128, 128)
+    light_green = (144, 238, 144)
+    light_blue = (173, 216, 230)
+    magenta = (255, 0, 255)
+
+    # Define method to get a list of colors for blocks
     @classmethod
     def get_cell_colors(cls):
-         #order of colors matter 
-        return[cls.dark_grey, cls.green, cls.red, cls.orange, cls.yellow, cls.purple, cls.cyan, cls.blue]
+        """
+        Returns a list of colors to use for game blocks.
+        The order ensures backward compatibility while adding new options.
+        """
+        return [
+            cls.dark_grey, cls.green, cls.red, cls.orange, 
+            cls.yellow, cls.purple, cls.cyan, cls.blue, 
+            cls.pink, cls.gold, cls.teal, cls.light_green, 
+            cls.light_blue, cls.magenta
+        ]
